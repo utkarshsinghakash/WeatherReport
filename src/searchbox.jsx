@@ -64,7 +64,7 @@ export default function searchbox({ updateInfo }) {
         <Button className="btn" type="submit">
           Search
         </Button>
-        {error && <p style={{ color: "red" }}>No such place exist in API!</p>}
+        {error && alert("No such place exist in API!")}
       </form>
     </div>
   );
