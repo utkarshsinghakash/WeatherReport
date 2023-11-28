@@ -5,10 +5,17 @@
 .infoBox {
   text-align: center;
 }
+.infoBox h2 {
+  color: rgb(105, 44, 3);
+}
 .cardcontainer P {
   color: rgb(153, 77, 28);
 }
 .cardcontainer h5 {
   line-height: 2px;
   color: rgb(105, 44, 3);
+}
+.cardcontainer .cardcontent {
+  margin: 0;
+  padding: 0;
 }

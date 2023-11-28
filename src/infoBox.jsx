@@ -18,11 +18,11 @@ export default function infoBox({ info }) {
     "https://img.freepik.com/free-photo/weather-effects-composition_23-2149853295.jpg?w=2000";
   return (
     <div className="infoBox">
-      <h1>WeatherInfo</h1>
+      <h2>WeatherInfo</h2>
       <div className="cardcontainer">
-        <Card sx={{ maxWidth: 445 }}>
+        <Card sx={{ maxWidth: 445, height: 400 }}>
           <CardMedia
-            sx={{ height: 160, width: 300 }}
+            sx={{ height: 150, width: 300 }}
             image={
               info.humidity > 65
                 ? rainy_img
@@ -31,7 +31,7 @@ export default function infoBox({ info }) {
                 : Cold_img
             }
           />
-          <CardContent>
+          <CardContent className="cardcontent">
             <Typography gutterBottom variant="h5" component="div">
               <h5>
                 {info.city}

@@ -7,3 +7,7 @@
 .searchbox {
   border: 1px solid rgb(153, 77, 28);
 }
+.searchbox .btn {
+  background-color: rgb(184, 79, 10);
+  color: white;
+}

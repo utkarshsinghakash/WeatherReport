@@ -60,7 +60,7 @@ export default function searchbox({ updateInfo }) {
         />
         <br></br>
         <br></br>
-        <Button variant="contained" type="submit">
+        <Button className="btn" type="submit">
           Search
         </Button>
         {error && <p style={{ color: "red" }}>No such place exist in API!</p>}
