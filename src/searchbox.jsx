@@ -43,7 +43,7 @@ export default function searchbox({ updateInfo }) {
       let newInfo = await getweather();
       updateInfo(newInfo);
     } catch (err) {
-      seterror(true);
+      // seterror(true);
     }
   };
 
