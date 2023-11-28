@@ -7,7 +7,7 @@ export default function searchbox({ updateInfo }) {
   const API_URL = "http://api.openweathermap.org/data/2.5/weather";
   const API_KEY = "96ae9f7cfdfd0e141c2d5c9e11d8d9c4";
   let [city, setcity] = useState("");
-  let [error, setError] = useState(false);
+  let [error, seterror] = useState(false);
 
   let getweather = async () => {
     try {
@@ -43,7 +43,7 @@ export default function searchbox({ updateInfo }) {
       let newInfo = await getweather();
       updateInfo(newInfo);
     } catch (err) {
-      setError(true);
+      seterror(true);
     }
   };
 
@@ -64,7 +64,7 @@ export default function searchbox({ updateInfo }) {
         <Button className="btn" type="submit">
           Search
         </Button>
-        {error && alert("No such place exist in API!")}
+        {error && <p style={{ color: "red" }}>No such place exist in API!</p>}
       </form>
     </div>
   );
