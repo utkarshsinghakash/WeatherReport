@@ -6,7 +6,7 @@ import "./App.css";
 
 function App() {
   return (
-    <>
+    <div className="mainBox">
       <h1 style={{ textAlign: "center" }}>Weather App</h1>
       <Weather />
       {/* <h3>Material UI</h3>
@@ -16,7 +16,7 @@ function App() {
       <Button onClick={handleclick} variant="contained" disabled>
         Click me!
       </Button> */}
-    </>
+    </div>
   );
 }
 

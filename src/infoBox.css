@@ -5,3 +5,10 @@
 .infoBox {
   text-align: center;
 }
+.cardcontainer P {
+  color: rgb(153, 77, 28);
+}
+.cardcontainer h5 {
+  line-height: 2px;
+  color: rgb(105, 44, 3);
+}
