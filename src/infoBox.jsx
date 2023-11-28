@@ -20,7 +20,7 @@ export default function infoBox({ info }) {
     <div className="infoBox">
       <h2>WeatherInfo</h2>
       <div className="cardcontainer">
-        <Card sx={{ maxWidth: 445, height: 400 }}>
+        <Card sx={{ maxWidth: 445, height: 450 }}>
           <CardMedia
             sx={{ height: 150, width: 300 }}
             image={

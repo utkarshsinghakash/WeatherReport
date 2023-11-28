@@ -6,10 +6,11 @@ import InfoBox from "./infoBox.jsx";
 export default function weather() {
   let [weatherInfo, setweatherInfo] = useState({
     humidity: 41,
-    city: "Delhi",
+    name: "Delhi",
     temp: 25.05,
     weather: "smoke",
     windspeed: 2.06,
+    pressure: 1014,
   });
 
   let updateInfo = (newInfo) => {
