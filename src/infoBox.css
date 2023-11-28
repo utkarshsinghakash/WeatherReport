@@ -15,7 +15,6 @@
   line-height: 2px;
   color: rgb(105, 44, 3);
 }
-.cardcontainer .cardcontent {
-  margin: 0;
-  padding: 0;
+.cardcontent h3 {
+  color: rgb(105, 44, 3);
 }

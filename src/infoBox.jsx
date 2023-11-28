@@ -32,22 +32,20 @@ export default function infoBox({ info }) {
             }
           />
           <CardContent className="cardcontent">
-            <Typography gutterBottom variant="h5" component="div">
-              <h5>
-                {info.city}
-                {"  "}
-                {info.humidity < 65 ? (
-                  info.temp > 15 ? (
-                    <WbSunnyIcon />
-                  ) : (
-                    <SevereColdIcon />
-                  )
+            <h3>
+              {info.name}
+              {info.humidity < 65 ? (
+                info.temp > 15 ? (
+                  <WbSunnyIcon />
                 ) : (
-                  <ThunderstormIcon />
-                )}
-              </h5>
-            </Typography>
-            <p style={{ fontSize: "1.2rem" }}>Humitidy:{info.humidity}</p>
+                  <SevereColdIcon />
+                )
+              ) : (
+                <ThunderstormIcon />
+              )}
+            </h3>
+
+            <p>Humitidy:{info.humidity}</p>
 
             <p>Temp:{info.temp}&deg;C</p>
             <p>Weather:{info.weather}</p>
