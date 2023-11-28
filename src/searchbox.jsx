@@ -20,8 +20,9 @@ export default function searchbox({ updateInfo }) {
         name: jsonresponse.name,
         temp: jsonresponse.main.temp,
         humidity: jsonresponse.main.humidity,
-        weather: jsonresponse.weather[0].description,
+        Condition: jsonresponse.weather[0].description,
         windspeed: jsonresponse.wind.speed,
+        pressure: jsonresponse.main.pressure,
       };
       console.log(result);
       return result;
