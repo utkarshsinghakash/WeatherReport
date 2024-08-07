@@ -8,7 +8,7 @@ export default function weather() {
     humidity: 41,
     name: "Delhi",
     temp: 25.05,
-    weather: "smoke",
+    condition: "smoke",
     windspeed: 2.06,
     pressure: 1014,
   });

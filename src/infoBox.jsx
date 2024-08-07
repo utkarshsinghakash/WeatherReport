@@ -50,8 +50,8 @@ export default function infoBox({ info }) {
             <p>Humitidy:{info.humidity}</p>
 
             <p>Temp:{info.temp}&deg;C</p>
-            <p>Weather:{info.weather}</p>
-            <p>Windspeed:{info.windspeed}m/s</p>
+            <p>Weather:{info.condition}</p>
+            <p>Windspeed:{info.windspeed}km/h</p>
             <p>Pressure:{info.pressure}</p>
           </CardContent>
         </Card>
