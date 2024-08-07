@@ -7,7 +7,7 @@ import "./App.css";
 function App() {
   return (
     <div className="mainBox">
-      <h1 style={{ textAlign: "center" }}>WeatherVista</h1>
+      <h1 style={{ textAlign: "center" }}>Weather Vista</h1>
       <Weather />
       {/* <h3>Material UI</h3>
       <Button onClick={handleclick} variant="contained" color="success">
